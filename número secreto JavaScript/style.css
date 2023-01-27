@@ -1,0 +1,168 @@
+html{
+    background-image: url(./images/banner.jpg);
+    font-family: "Open Sans", Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    width: 100%;
+    letter-spacing: 0.075em;
+    
+}
+
+
+
+body{
+    
+    
+    color: white;
+    text-shadow: 4px 4px 8px #000000;
+    color: #fffF;
+	font-family: "Open Sans", Helvetica, sans-serif;
+	font-size: 15pt;
+	font-weight: 400;
+	letter-spacing: 0.075em;
+	line-height: 1.65em;
+}
+
+.bloco{
+    display: block;
+    padding-top: 200pt;
+    padding-bottom: 0;
+    filter: blur(0px);
+    margin: 0 auto;
+    margin-bottom: 0;
+    text-align: center;
+    
+}
+
+.bloco2{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#titulo{
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 0 auto;
+    padding-top: 30px;
+}
+
+
+h2{
+    
+    text-decoration: none;
+    color: white;
+    text-shadow: 4px 4px 8px #000000;
+	font-weight: 800;
+	letter-spacing: 0.225em;
+	line-height: 1em;
+	margin: 0 0 1em 0;
+	text-transform: uppercase;
+}
+
+
+hr{
+    text-decoration: none;
+    width: 500px;
+}
+
+footer{
+    cursor: pointer;
+    color: white;
+    text-shadow: 4px 4px 8px #000000;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.692);
+    padding-top: 20px;
+}
+
+#dificuldade{
+    text-transform: uppercase;
+    font-family: "Courier New", monospace;
+    letter-spacing: 0.075em;
+    font-size: large;
+    background-color: #1100ff;
+    color: #FFFF;
+    width: 310px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: #000000 2px solid;
+    
+}
+
+#dificuldade:hover{
+    background-color:#eb341c;
+    cursor: pointer;
+}
+
+#comecar{
+    height: 50px;
+    background-color: #1100ff;
+    color: #FFFF;
+    border-radius: 10px;
+    border: #000000 2px solid;
+    font-family: "Courier New", monospace;
+    font-size: large;
+    letter-spacing: 0.075em;
+
+}
+
+#comecar:hover{
+    background-color:#eb341c;
+    cursor: pointer;
+
+}
+
+#entrada{
+    height: 20px;
+    width: 147px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Courier New", monospace;
+
+}
+
+#btnVerificar{
+    height: 50px;
+    background-color: #1100ff;
+    color: #FFFF;
+    border-radius: 10px;
+    border: #000000 2px solid;
+    font-family: "Courier New", monospace;
+    font-size: large;
+    letter-spacing: 0.075em;
+}
+
+#btnVerificar:hover{
+    background-color:#eb341c;
+    cursor: pointer;
+
+}
+
+
+#resetar{
+    height: 50px;
+    background-color: #1100ff;
+    color: #FFFF;
+    border-radius: 10px;
+    border: #000000 2px solid;
+    font-family: "Courier New", monospace;
+    font-size: large;
+    letter-spacing: 0.075em;
+
+}
+
+#resetar:hover{
+    background-color:#eb341c;
+    cursor: pointer;
+
+}
+
+
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <title>Jogo Número Secreto</title>
+    <script src="./scriptsInicio.js"></script>
+    
+</head>
+<body>
+    
+    <div class="bloco" id="banner">
+        <div id="titulo">
+            <hr id="cima"><h2>Número secreto</h2><hr id="baixo">
+        </div>
+        <div id="timer" hidden>
+            
+                Tempo restante em segundos:<p id="cronometro"></p>
+                
+            
+        </div>
+        <p>
+            <select id="dificuldade">
+
+                <option id="vazio" value="0" >Selecione a Dificuldade</option>
+                <option id="facil" value="1">Fácil</option>
+                <option id="medio" value="2">Médio (normal)</option>
+                <option id="dificil" value="3">Difícil</option>
+                <option id="xablau" value="4">Xablau (GOD)</option>
+    
+            </select>
+        </p>
+        
+        
+        <input type="number" id="entrada" placeholder="Digite um número:" maxlength="4" hidden>
+        <p><input type="button" value="Verificar" id="btnVerificar"hidden></p>
+        
+            <input type="button" value="Começar Jogo" id="comecar" >
+            <input type="button" value="Reiniciar Jogo" id="resetar" hidden>
+        
+        
+        <p hidden id="mostrar"> Mostrar números:<input type="checkbox" name="" id="mostrarDigitos"></p>
+        
+        <div id="impressao"></div>
+        
+        
+    </div>
+    
+    <div  class="bloco2">
+        
+        <div id="digitos" hidden>Números digitados:</div><br>
+        <div id="erros"></div>
+
+    </div>
+
+    <script src="./scriptsFinal.js"></script>
+    <footer>
+        &copy; Gabriel Vianna 2022
+        <p></p>
+    </footer>
+</body>
+</html>                       

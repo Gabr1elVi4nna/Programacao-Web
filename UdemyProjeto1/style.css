@@ -1,0 +1,118 @@
+
+
+
+body{
+    background-image:url(./img/fundo.png);
+    font: 16px Arial ;
+    
+
+}
+
+#main{
+   width: 900px;
+   align-items: center;
+   margin: 0 auto;
+   padding-bottom: 20px;
+}
+
+#menu{
+    background-color: #c5c5b2;
+    padding-top: 20px;
+    padding-bottom: 22px;
+    padding-left: 20px;
+    width: 880PX;
+    margin: 0 auto;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #4b566a;
+    font-weight: bold;
+    padding: 45px;
+    margin: 0;
+    text-align: center;
+      
+}
+
+a:hover{
+    color: #95a7c7;
+}
+
+#vao{
+    margin-bottom: 25px;
+}
+
+#conteudo{
+    border-color: #828271;
+    border-radius: 15px ;
+    
+    background-color: #FFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: justify;
+    width: 900px;
+    padding-bottom: 30px;
+}
+
+.imgs{
+    
+    padding: 5px;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    text-align: justify;
+    border: solid 5px;
+    border-color: #828271;
+    border-radius: 15px ;
+
+    
+}
+
+h2{
+
+    text-decoration: none;
+    color: #828271;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+p{
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+i{
+    
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    list-style: none;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+li{
+    list-style: none; 
+}
+
+#facebook{
+    color: #315292;
+}
+
+#instagram{
+    color: rgba(187, 29, 121, 0.829);
+}
+
+#whatsapp{
+    color: rgb(1, 255, 1);
+}
+
+footer{
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
